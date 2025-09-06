@@ -1,0 +1,34 @@
+{
+  "name": "islandghoststephanietools",
+  "version": "1.0.0",
+  "description": "Documentation for IslandGhostStephanieTools",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "install:gitbook": "npm install -g gitbook-cli",
+    "prepare": "gitbook install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/IslandGhostStephanieTools.git"
+  },
+  "keywords": [
+    "documentation",
+    "gitbook"
+  ],
+  "author": "Stephanie Mellott",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-api": "^1.0.1",
+    "gitbook-plugin-copy-code-button": "0.0.2",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-search-plus": "^1.0.3"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}

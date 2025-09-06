@@ -1,0 +1,12 @@
+version: '3'
+services:
+  gitbook:
+    image: billryan/gitbook
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/gitbook
+    working_dir: /srv/gitbook
+    command: "serve"
+    environment:
+      - NODE_OPTIONS=--max_old_space_size=4096

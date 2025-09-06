@@ -1,0 +1,17 @@
+{
+  "title": "IslandGhostStephanieTools",
+  "description": "Documentation for IslandGhostStephanieTools",
+  "author": "Stephanie Mellott",
+  "language": "en",
+  "root": ".",
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-plus"
+  ],
+  "pluginsConfig": {
+    "search-plus": {
+      "tokenize": "full"
+    }
+  }
+}
